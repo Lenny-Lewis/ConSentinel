@@ -979,6 +979,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   text-underline-offset: calc(3 * var(--u));
   transition: color .2s ease;
 }
+.foot-bottom .foot-credit a {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.foot-credit img {
+  display: block;
+  width: calc(58 * var(--u));
+  height: calc(36 * var(--u));
+  object-fit: contain;
+}
 .foot-bottom a:hover {
   color: var(--cta);
 }
